@@ -9,12 +9,10 @@ import Foundation
 import UIKit
 
 
-class IconTextField: UITextField {
+@IBDesignable class IconTextField: UITextField {
     
     var imageSize: CGSize?
-    
     var imageView: UIImageView?
-    
     
     var textLeftOffset: CGFloat = 0 {
         didSet {
@@ -31,8 +29,8 @@ class IconTextField: UITextField {
     @IBInspectable public var image: UIImage? {
         didSet {
             guard let image = image else { return }
-            imageSize = CGSize(width: frame.width/10, height: frame.height)
-            textLeftOffset = imageSize!.width + 10
+            imageSize = CGSize(width: frame.width/10, height: frame.height/2)
+            textLeftOffset = imageSize!.width + 20
             setupImageView(with: image)
             
             
@@ -40,10 +38,24 @@ class IconTextField: UITextField {
     }
     
     @IBInspectable public var cornerRadius: CGFloat = 0 {
-            didSet {
-                layer.cornerRadius = cornerRadius
-            }
+        didSet {
+            layer.cornerRadius = cornerRadius
         }
+    }
+    
+    @IBInspectable public var borderColor: UIColor = .clear {
+        didSet {
+            layer.borderColor = borderColor.cgColor
+        }
+    }
+    
+    @IBInspectable public var borderWidth: CGFloat = 0 {
+        didSet {
+            layer.borderWidth = borderWidth
+        }
+    }
+    
+    
     
     
     fileprivate func setupImageView(with imageObj: UIImage) {
@@ -51,7 +63,7 @@ class IconTextField: UITextField {
            guard let imageSize = imageSize else { return }
            
            imageView = UIImageView()
-           imageView!.frame = CGRect(x: 5, y: frame.height/2 - imageSize.height/2, width: imageSize.width, height: imageSize.height)
+           imageView!.frame = CGRect(x: 10, y: frame.height/2 - imageSize.height/2, width: imageSize.width, height: imageSize.height)
            imageView!.image = imageObj
            imageView!.contentMode = .scaleAspectFit
            addSubview(imageView!)
