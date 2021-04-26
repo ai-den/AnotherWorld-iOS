@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Fonts"
+      name = "Fonts">
+      <FileRef
+         location = "group:SoraFamily.zip">
+      </FileRef>
+      <Group
+         location = "group:SoraFamily"
+         name = "SoraFamily">
+         <Group
+            location = "group:static"
+            name = "static">
+            <FileRef
+               location = "group:Sora-Thin.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-ExtraBold.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-Bold.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-Light.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-Regular.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-Medium.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-SemiBold.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Sora-ExtraLight.ttf">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:OFL.txt">
+         </FileRef>
+         <FileRef
+            location = "group:README.txt">
+         </FileRef>
+         <FileRef
+            location = "group:Sora-VariableFont_wght.ttf">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "self:">
    </FileRef>
