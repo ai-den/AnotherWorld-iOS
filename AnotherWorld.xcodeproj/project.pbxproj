@@ -22,6 +22,8 @@
 		DFAA2C1B2635B73800562DD6 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C132635B73800562DD6 /* Sora-Bold.ttf */; };
 		DFAA2C1C2635B73800562DD6 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C142635B73800562DD6 /* Sora-SemiBold.ttf */; };
 		DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174152636C5D40037A2F1 /* IconTextField.swift */; };
+		DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174192636E77A0037A2F1 /* LongButton.swift */; };
+		DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1741C263727900037A2F1 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		DFAA2C132635B73800562DD6 /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Bold.ttf"; sourceTree = "<group>"; };
 		DFAA2C142635B73800562DD6 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
 		DFD174152636C5D40037A2F1 /* IconTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		DFD174192636E77A0037A2F1 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
+		DFD1741C263727900037A2F1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 			children = (
 				DF07E676263527D500EE70B0 /* Main.storyboard */,
 				DFD174152636C5D40037A2F1 /* IconTextField.swift */,
+				DFD174192636E77A0037A2F1 /* LongButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 				DF07E670263527D500EE70B0 /* AppDelegate.swift */,
 				DF07E672263527D500EE70B0 /* SceneDelegate.swift */,
 				DF07E674263527D500EE70B0 /* ViewController.swift */,
+				DFD1741C263727900037A2F1 /* SignUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF07E675263527D500EE70B0 /* ViewController.swift in Sources */,
+				DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */,
+				DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */,
 				DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */,
 				DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */,
 				DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */,

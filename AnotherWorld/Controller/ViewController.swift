@@ -10,22 +10,22 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var SignInLabel: UILabel!
-    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var username: IconTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
-        
+        fontConfig()
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     
     func fontConfig() -> Void {
         SignInLabel.font = UIFont(name: "Sora-SemiBold", size: 30.0)
-        username.leftViewRect(forBounds: CGRect(x: 0, y: 0, width: 28, height: 28))
-        username.leftViewMode = .always
-        print("Font Configuration has done for Sign in VC.")
     }
 
 
