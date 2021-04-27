@@ -47,7 +47,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lNK-jm-e8m" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lNK-jm-e8m" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="79" width="345" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="345" id="UWi-Fg-qa9"/>
@@ -117,8 +117,8 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UB9-Ei-DaX">
-                                <rect key="frame" x="153.33333333333334" y="179" width="83.666666666666657" height="31.666666666666657"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                <rect key="frame" x="124.66666666666669" y="145" width="141" height="51.333333333333343"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="43"/>
                                 <color key="textColor" name="Primary Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -126,19 +126,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UB9-Ei-DaX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="91" id="660-LE-YGw"/>
                             <constraint firstItem="NPX-N8-l9i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="LsU-7T-hkY"/>
                             <constraint firstItem="NPX-N8-l9i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MrC-4Z-OA7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3eG-Z1-udZ" secondAttribute="bottom" constant="20" id="Paw-Hb-Bvy"/>
-                            <constraint firstItem="UB9-Ei-DaX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WIX-Gw-Nlh"/>
+                            <constraint firstItem="UB9-Ei-DaX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="W1d-i7-DKx"/>
                             <constraint firstItem="3eG-Z1-udZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fIb-UF-068"/>
                             <constraint firstItem="oVh-oz-Thj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fa8-3C-fhb"/>
+                            <constraint firstItem="UB9-Ei-DaX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tlF-T9-9xc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oVh-oz-Thj" secondAttribute="bottom" constant="65" id="uxi-Oo-nl1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3al-d7-WG9"/>
                     <connections>
-                        <outlet property="SignInLabel" destination="UB9-Ei-DaX" id="vfF-sR-kGh"/>
+                        <outlet property="SignInTitle" destination="UB9-Ei-DaX" id="huB-jc-4cj"/>
                         <outlet property="username" destination="nX8-qN-f5C" id="FTH-KN-IJ2"/>
                     </connections>
                 </viewController>
@@ -158,8 +158,12 @@
                                 <rect key="frame" x="0.0" y="126" width="390" height="718"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lRm-ja-Vkg">
-                                        <rect key="frame" x="101.00000000000001" y="52.999999999999993" width="188.33333333333337" height="31.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                                        <rect key="frame" x="35" y="19.000000000000004" width="320.33333333333331" height="51.333333333333343"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51.329999999999998" id="Uxg-K9-ebd"/>
+                                            <constraint firstAttribute="width" constant="320.32999999999998" id="wOm-S5-gtJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="43"/>
                                         <color key="textColor" name="Primary Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -167,13 +171,13 @@
                                 <viewLayoutGuide key="safeArea" id="KCA-eq-dhK"/>
                                 <color key="backgroundColor" red="0.92109864949999998" green="0.95534807440000002" blue="0.9775002599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="lRm-ja-Vkg" firstAttribute="centerX" secondItem="uuh-ld-k7W" secondAttribute="centerX" id="73s-ce-FUb"/>
+                                    <constraint firstItem="lRm-ja-Vkg" firstAttribute="centerX" secondItem="uuh-ld-k7W" secondAttribute="centerX" id="W4Z-cC-9hD"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="ARX-Gg-cPC">
-                                <rect key="frame" x="22.666666666666657" y="318.66666666666669" width="345" height="127"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="ARX-Gg-cPC">
+                                <rect key="frame" x="22.666666666666657" y="273.66666666666669" width="345" height="297.00000000000006"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="z6d-3y-9oo" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="z6d-3y-9oo" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="345" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="8Nd-aG-iKH"/>
@@ -186,7 +190,7 @@
                                                 <real key="value" value="22"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="image" keyPath="image">
-                                                <imageReference key="value" image="person.fill" catalog="system" renderingMode="original"/>
+                                                <imageReference key="value" image="person" catalog="system" renderingMode="original"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                                 <color key="value" name="Primary Color"/>
@@ -199,8 +203,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8BM-UP-auv" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="79" width="345" height="48"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8BM-UP-auv" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="83" width="345" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="9NY-f9-Uhh"/>
                                             <constraint firstAttribute="width" constant="345" id="meX-nJ-LsO"/>
@@ -212,7 +216,59 @@
                                                 <real key="value" value="22"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="image" keyPath="image">
-                                                <imageReference key="value" image="lock.fill" catalog="system" renderingMode="original"/>
+                                                <imageReference key="value" image="envelope" catalog="system" renderingMode="original"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" name="Primary Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password (At least 8 characters)" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Y1D-bJ-6Ez" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="166" width="345" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="345" id="2J4-MO-qyU"/>
+                                            <constraint firstAttribute="height" constant="48" id="NxA-w5-JS4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="image">
+                                                <imageReference key="value" image="lock" catalog="system" renderingMode="original"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" name="Primary Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Re-enter Password" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4IJ-t1-Jnr" customClass="IconTextField" customModule="AnotherWorld" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="248.99999999999994" width="345" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="6hs-x9-XTR"/>
+                                            <constraint firstAttribute="width" constant="345" id="b6u-nB-fx3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="image">
+                                                <imageReference key="value" image="lock" catalog="system" renderingMode="original"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                                 <color key="value" name="Primary Color"/>
@@ -273,26 +329,27 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uuh-ld-k7W" firstAttribute="trailing" secondItem="MLQ-6r-QaK" secondAttribute="trailing" id="6ka-v4-Orc"/>
-                            <constraint firstItem="lRm-ja-Vkg" firstAttribute="top" secondItem="MLQ-6r-QaK" secondAttribute="top" constant="91" id="C0G-m8-bHS"/>
                             <constraint firstItem="uuh-ld-k7W" firstAttribute="leading" secondItem="MLQ-6r-QaK" secondAttribute="leading" id="DIT-2m-l8O"/>
                             <constraint firstItem="Bw0-kQ-wfW" firstAttribute="centerX" secondItem="Aig-KK-djq" secondAttribute="centerX" id="IaV-Df-opf"/>
                             <constraint firstItem="uuh-ld-k7W" firstAttribute="top" secondItem="MLQ-6r-QaK" secondAttribute="top" constant="38" id="JiU-Nj-1Vy"/>
                             <constraint firstItem="aRD-2f-YzX" firstAttribute="centerX" secondItem="Aig-KK-djq" secondAttribute="centerX" id="Qcc-L1-lJ9"/>
                             <constraint firstItem="MLQ-6r-QaK" firstAttribute="bottom" secondItem="aRD-2f-YzX" secondAttribute="bottom" constant="65" id="QuY-H3-EkT"/>
                             <constraint firstAttribute="bottom" secondItem="uuh-ld-k7W" secondAttribute="bottom" id="gK5-Ts-p4h"/>
+                            <constraint firstItem="lRm-ja-Vkg" firstAttribute="top" secondItem="MLQ-6r-QaK" secondAttribute="top" constant="57" id="gQ1-Lb-ndQ"/>
                             <constraint firstItem="ARX-Gg-cPC" firstAttribute="centerX" secondItem="Aig-KK-djq" secondAttribute="centerX" id="j65-Lh-gaR"/>
                             <constraint firstItem="MLQ-6r-QaK" firstAttribute="bottom" secondItem="Bw0-kQ-wfW" secondAttribute="bottom" constant="20" id="o34-kw-DCV"/>
-                            <constraint firstItem="ARX-Gg-cPC" firstAttribute="centerY" secondItem="Aig-KK-djq" secondAttribute="centerY" constant="-40" id="yYz-qH-EDN"/>
+                            <constraint firstItem="ARX-Gg-cPC" firstAttribute="centerY" secondItem="Aig-KK-djq" secondAttribute="centerY" id="yYz-qH-EDN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N2S-NB-aK3"/>
                     <connections>
+                        <outlet property="SignUpTitle" destination="lRm-ja-Vkg" id="5ML-Sw-mJB"/>
                         <outlet property="bgView" destination="uuh-ld-k7W" id="1kf-yL-TT2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uf7-h9-UJ4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2820" y="52"/>
+            <point key="canvasLocation" x="2820" y="51.895734597156398"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="75q-1Y-ZBt">
@@ -314,14 +371,20 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="4IJ-t1-Jnr">
+            <size key="intrinsicContentSize" width="199" height="21"/>
+        </designable>
         <designable name="8BM-UP-auv">
-            <size key="intrinsicContentSize" width="59" height="21"/>
+            <size key="intrinsicContentSize" width="94.666666666666671" height="21"/>
+        </designable>
+        <designable name="Y1D-bJ-6Ez">
+            <size key="intrinsicContentSize" width="301" height="21"/>
         </designable>
         <designable name="aRD-2f-YzX">
             <size key="intrinsicContentSize" width="42" height="36"/>
         </designable>
         <designable name="lNK-jm-e8m">
-            <size key="intrinsicContentSize" width="59" height="21"/>
+            <size key="intrinsicContentSize" width="127.33333333333333" height="21"/>
         </designable>
         <designable name="nX8-qN-f5C">
             <size key="intrinsicContentSize" width="197.33333333333334" height="22"/>
@@ -330,11 +393,14 @@
             <size key="intrinsicContentSize" width="42" height="36"/>
         </designable>
         <designable name="z6d-3y-9oo">
-            <size key="intrinsicContentSize" width="59" height="22"/>
+            <size key="intrinsicContentSize" width="132.33333333333334" height="22"/>
         </designable>
     </designables>
     <resources>
+        <image name="envelope" catalog="system" width="128" height="93"/>
+        <image name="lock" catalog="system" width="128" height="128"/>
         <image name="lock.fill" catalog="system" width="128" height="128"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <namedColor name="Primary Color">
             <color red="0.2196078431372549" green="0.71372549019607845" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
