@@ -9,7 +9,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var SignInLabel: UILabel!
+    @IBOutlet weak var SignInTitle: UILabel!
     @IBOutlet weak var username: IconTextField!
     
     override func viewDidLoad() {
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     
     func fontConfig() -> Void {
-        SignInLabel.font = UIFont(name: "Sora-SemiBold", size: 30.0)
+        SignInTitle.font = UIFont(name: "Sora-SemiBold", size: 40.0)
     }
 
 
