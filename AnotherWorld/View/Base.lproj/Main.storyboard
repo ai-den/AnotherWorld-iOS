@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnotherWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignInViewController" customModule="AnotherWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,6 +94,9 @@
                                         <color key="value" name="Primary Color"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="8p7-1D-uWU" kind="show" id="euy-Eq-wRD"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="3eG-Z1-udZ">
                                 <rect key="frame" x="83.333333333333329" y="762" width="223.66666666666669" height="28"/>
@@ -149,7 +152,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="eqU-ax-mmx">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="qly-1n-lKW" customClass="SignUpViewController" customModule="AnotherWorld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="qly-1n-lKW" customClass="SignUpViewController" customModule="AnotherWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Aig-KK-djq">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,6 +305,9 @@
                                         <color key="value" name="Primary Color"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="8p7-1D-uWU" kind="show" id="UUy-Nc-Cj5"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Bw0-kQ-wfW">
                                 <rect key="frame" x="95.333333333333329" y="762" width="199.33333333333337" height="28"/>
@@ -349,7 +355,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uf7-h9-UJ4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2820" y="51.895734597156398"/>
+            <point key="canvasLocation" x="2006" y="823"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="T5f-m1-Yyk">
+            <objects>
+                <viewController id="8p7-1D-uWU" customClass="MapViewController" customModule="AnotherWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sBY-ne-MJf">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aoK-oA-0tw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rfI-dq-YCf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDw-4d-css" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3189" y="52"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="75q-1Y-ZBt">
@@ -396,6 +418,9 @@
             <size key="intrinsicContentSize" width="132.33333333333334" height="22"/>
         </designable>
     </designables>
+    <inferredMetricsTieBreakers>
+        <segue reference="euy-Eq-wRD"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="envelope" catalog="system" width="128" height="93"/>
         <image name="lock" catalog="system" width="128" height="128"/>

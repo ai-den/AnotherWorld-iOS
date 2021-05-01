@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7711573B796B7D5D9800E2E5 /* Pods_AnotherWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06919E6E5C631F1A6DC25C8E /* Pods_AnotherWorld.framework */; };
 		DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E670263527D500EE70B0 /* AppDelegate.swift */; };
 		DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E672263527D500EE70B0 /* SceneDelegate.swift */; };
-		DF07E675263527D500EE70B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E674263527D500EE70B0 /* ViewController.swift */; };
+		DF07E675263527D500EE70B0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E674263527D500EE70B0 /* SignInViewController.swift */; };
 		DF07E678263527D500EE70B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF07E676263527D500EE70B0 /* Main.storyboard */; };
 		DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF07E679263527D500EE70B0 /* AnotherWorld.xcdatamodeld */; };
 		DF07E67D263527D600EE70B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF07E67C263527D600EE70B0 /* Assets.xcassets */; };
@@ -24,13 +25,17 @@
 		DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174152636C5D40037A2F1 /* IconTextField.swift */; };
 		DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174192636E77A0037A2F1 /* LongButton.swift */; };
 		DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1741C263727900037A2F1 /* SignUpViewController.swift */; };
+		DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7B82B263DA666003E43B2 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06919E6E5C631F1A6DC25C8E /* Pods_AnotherWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnotherWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0A52878B7B162BC0ED106D /* Pods-AnotherWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnotherWorld.debug.xcconfig"; path = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB55F4825C8B7169B4C1063 /* Pods-AnotherWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnotherWorld.release.xcconfig"; path = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.release.xcconfig"; sourceTree = "<group>"; };
 		DF07E66D263527D500EE70B0 /* AnotherWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnotherWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF07E670263527D500EE70B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF07E672263527D500EE70B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF07E674263527D500EE70B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF07E674263527D500EE70B0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DF07E677263527D500EE70B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF07E67A263527D500EE70B0 /* AnotherWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnotherWorld.xcdatamodel; sourceTree = "<group>"; };
 		DF07E67C263527D600EE70B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +51,7 @@
 		DFD174152636C5D40037A2F1 /* IconTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
 		DFD174192636E77A0037A2F1 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 		DFD1741C263727900037A2F1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DFD7B82B263DA666003E43B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7711573B796B7D5D9800E2E5 /* Pods_AnotherWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A60893DA69E073DAB2A544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D0A52878B7B162BC0ED106D /* Pods-AnotherWorld.debug.xcconfig */,
+				BEB55F4825C8B7169B4C1063 /* Pods-AnotherWorld.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF07E664263527D500EE70B0 = {
 			isa = PBXGroup;
 			children = (
 				DF07E66F263527D500EE70B0 /* AnotherWorld */,
 				DF07E66E263527D500EE70B0 /* Products */,
+				31A60893DA69E073DAB2A544 /* Pods */,
+				EE9BDA6CCD15CED2EBB76833 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,10 +145,19 @@
 			children = (
 				DF07E670263527D500EE70B0 /* AppDelegate.swift */,
 				DF07E672263527D500EE70B0 /* SceneDelegate.swift */,
-				DF07E674263527D500EE70B0 /* ViewController.swift */,
+				DF07E674263527D500EE70B0 /* SignInViewController.swift */,
 				DFD1741C263727900037A2F1 /* SignUpViewController.swift */,
+				DFD7B82B263DA666003E43B2 /* MapViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE9BDA6CCD15CED2EBB76833 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06919E6E5C631F1A6DC25C8E /* Pods_AnotherWorld.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF07E684263527D600EE70B0 /* Build configuration list for PBXNativeTarget "AnotherWorld" */;
 			buildPhases = (
+				0521D88D6D5721B184C65F96 /* [CP] Check Pods Manifest.lock */,
 				DF07E669263527D500EE70B0 /* Sources */,
 				DF07E66A263527D500EE70B0 /* Frameworks */,
 				DF07E66B263527D500EE70B0 /* Resources */,
+				B333629E55D91975D45D66D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,18 +234,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0521D88D6D5721B184C65F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnotherWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B333629E55D91975D45D66D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF07E669263527D500EE70B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF07E675263527D500EE70B0 /* ViewController.swift in Sources */,
+				DF07E675263527D500EE70B0 /* SignInViewController.swift in Sources */,
 				DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */,
 				DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */,
 				DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */,
 				DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */,
 				DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */,
 				DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */,
+				DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +432,7 @@
 		};
 		DF07E685263527D600EE70B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0A52878B7B162BC0ED106D /* Pods-AnotherWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -379,6 +452,7 @@
 		};
 		DF07E686263527D600EE70B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB55F4825C8B7169B4C1063 /* Pods-AnotherWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
