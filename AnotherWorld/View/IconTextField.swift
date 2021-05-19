@@ -9,7 +9,8 @@ import Foundation
 import UIKit
 
 
-@IBDesignable class IconTextField: UITextField {
+@IBDesignable
+class IconTextField: UITextField {
     
     var imageSize: CGSize?
     var imageView: UIImageView?
@@ -17,7 +18,7 @@ import UIKit
     var textLeftOffset: CGFloat = 0 {
         didSet {
             let paddingView = UIView(frame: CGRect(x: 0, y: 0,
-                                                   width: textLeftOffset,
+                                                   width: textLeftOffset + 20,
                                                    height: frame.height))
             
             leftView = paddingView
@@ -30,7 +31,7 @@ import UIKit
         didSet {
             guard let image = image else { return }
             imageSize = CGSize(width: frame.width/10, height: frame.height/2)
-            textLeftOffset = imageSize!.width + 20
+            textLeftOffset = imageSize!.width
             setupImageView(with: image)
             
             

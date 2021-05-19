@@ -3,17 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
 		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E215DFB4EAE26646AFED2C4861A55C32 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildConfigurationList = 9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
 			buildPhases = (
 			);
 			dependencies = (
-				CCDE3DF5458240F3259D88C46803DEC8 /* PBXTargetDependency */,
 			);
 			name = GooglePlaces;
 		};
@@ -29,27 +28,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0447E7AA5FF7B3A404B9566499D9BE69 /* Pods-AnotherWorld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E8D9BD2ACBCB3C503CD08016084DA5 /* Pods-AnotherWorld-dummy.m */; };
-		A431C8CC2BDFE129F75C619FD921EC13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C1FB2F63AD8B12DC067DEAA53D653AEE /* Pods-AnotherWorld-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AE787DE14A961B34788623C4F39399 /* Pods-AnotherWorld-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32E7C029B9AC8EE158D08BBCAF5953E1 /* Pods-AnotherWorld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EDA3179766939841891652E482EF97 /* Pods-AnotherWorld-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		108F9196136F85067DA2F6284C12312A /* PBXContainerItemProxy */ = {
+		67E74B1E3FA996BFCFCA2C84712829F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
 			remoteInfo = GoogleMaps;
 		};
-		831B57D23EDED3AEA1C7E0AF31381EFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
-		};
-		ACE53E3F4B335F1CA09D346E106BBB13 /* PBXContainerItemProxy */ = {
+		E4D61877A3AA582D75EF25BB33D0ED75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -59,36 +49,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17427F0ADA43E2C2644AD473B33FE142 /* Pods-AnotherWorld-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnotherWorld-acknowledgements.markdown"; sourceTree = "<group>"; };
-		17E8D9BD2ACBCB3C503CD08016084DA5 /* Pods-AnotherWorld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnotherWorld-dummy.m"; sourceTree = "<group>"; };
 		23F651581A8A5A322B46718DD384709B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		364078B776FB35435D2BF6D8D1E25864 /* Pods-AnotherWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnotherWorld.debug.xcconfig"; sourceTree = "<group>"; };
-		409A5CAC2913799F156F917DC9BBE871 /* Pods-AnotherWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnotherWorld.release.xcconfig"; sourceTree = "<group>"; };
+		3AAD0F4233D8B820EB0D0FE38AA099BD /* Pods-AnotherWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnotherWorld.release.xcconfig"; sourceTree = "<group>"; };
+		41429D3C92C5E2FA41C893638D2215A2 /* Pods-AnotherWorld-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnotherWorld-acknowledgements.plist"; sourceTree = "<group>"; };
 		4E256CB72E069B4C851E32F3924687B3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		609FDAD66EC15EB0E3960DEC2FED4CF6 /* Pods-AnotherWorld-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnotherWorld-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7506910E882AB47CCEE10B576F905DB3 /* Pods-AnotherWorld-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnotherWorld-Info.plist"; sourceTree = "<group>"; };
+		84EDA3179766939841891652E482EF97 /* Pods-AnotherWorld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnotherWorld-dummy.m"; sourceTree = "<group>"; };
 		8704E7734F2D03B8EF86CFC319C943BC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		8C7C2CAB2B566599AADF2AD89BFB1143 /* Pods-AnotherWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnotherWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		8EBF4D65DD3B0EDCC39AF1C317B7FF1D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		90773A732F7922A69470CBE1D2422022 /* Pods-AnotherWorld-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnotherWorld-resources.sh"; sourceTree = "<group>"; };
 		9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
 		A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
-		C9BEB3184A852881D910032D78D2406F /* Pods_AnotherWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnotherWorld.framework; path = "Pods-AnotherWorld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9F06300078947F39EE779F976CA6BC1 /* Pods-AnotherWorld-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnotherWorld-resources.sh"; sourceTree = "<group>"; };
-		D3A5019FC24BA386D720DE286C6EE420 /* Pods-AnotherWorld.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnotherWorld.modulemap"; sourceTree = "<group>"; };
-		D5AE787DE14A961B34788623C4F39399 /* Pods-AnotherWorld-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnotherWorld-umbrella.h"; sourceTree = "<group>"; };
+		ADD3BC4A11B8304BDCA7762D427D3A3A /* Pods-AnotherWorld-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnotherWorld-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9BEB3184A852881D910032D78D2406F /* libPods-AnotherWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AnotherWorld.a"; path = "libPods-AnotherWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74A4A5FDDD4F90A8A55EB206C7681BC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		F8C3BB261D41EB0A05EAE541E50E3DAB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20D544B07FCA75B4F2FA93207CD35388 /* Frameworks */ = {
+		B4D80FB6ADE47560B31B63E734A7535D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A431C8CC2BDFE129F75C619FD921EC13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,14 +97,6 @@
 			);
 			name = GoogleMaps;
 			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		24AA0A2E357338C59C853BEE8862A14F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C9BEB3184A852881D910032D78D2406F /* Pods_AnotherWorld.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		3582EF5F85D78C1DB07F01BC0BFA167E /* Support Files */ = {
@@ -151,12 +128,12 @@
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		67D2633F88BDF22D8E2081550E0ABC99 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				D66D97A44D46EEE12D1575C8021A1EEC /* Pods-AnotherWorld */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		6C8EBDD6FEE473D639E9FF7A802869C0 /* Support Files */ = {
@@ -177,6 +154,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		8FF84775E512BEEB0FF5F5A963DAF225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BEB3184A852881D910032D78D2406F /* libPods-AnotherWorld.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A38D68C78C032F2CEEEEED36818D37F0 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,46 +171,34 @@
 			name = Maps;
 			sourceTree = "<group>";
 		};
-		BA35619426F051E051D526BAEAF12E21 /* Targets Support Files */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				CA343CC468DBFDC87EAD9A98555D42A7 /* Pods-AnotherWorld */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E858A99A3564099E88E4CF05F26A517D /* Pods */,
+				8FF84775E512BEEB0FF5F5A963DAF225 /* Products */,
+				67D2633F88BDF22D8E2081550E0ABC99 /* Targets Support Files */,
 			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CA343CC468DBFDC87EAD9A98555D42A7 /* Pods-AnotherWorld */ = {
+		D66D97A44D46EEE12D1575C8021A1EEC /* Pods-AnotherWorld */ = {
 			isa = PBXGroup;
 			children = (
-				D3A5019FC24BA386D720DE286C6EE420 /* Pods-AnotherWorld.modulemap */,
-				17427F0ADA43E2C2644AD473B33FE142 /* Pods-AnotherWorld-acknowledgements.markdown */,
-				609FDAD66EC15EB0E3960DEC2FED4CF6 /* Pods-AnotherWorld-acknowledgements.plist */,
-				17E8D9BD2ACBCB3C503CD08016084DA5 /* Pods-AnotherWorld-dummy.m */,
-				7506910E882AB47CCEE10B576F905DB3 /* Pods-AnotherWorld-Info.plist */,
-				C9F06300078947F39EE779F976CA6BC1 /* Pods-AnotherWorld-resources.sh */,
-				D5AE787DE14A961B34788623C4F39399 /* Pods-AnotherWorld-umbrella.h */,
-				364078B776FB35435D2BF6D8D1E25864 /* Pods-AnotherWorld.debug.xcconfig */,
-				409A5CAC2913799F156F917DC9BBE871 /* Pods-AnotherWorld.release.xcconfig */,
+				ADD3BC4A11B8304BDCA7762D427D3A3A /* Pods-AnotherWorld-acknowledgements.markdown */,
+				41429D3C92C5E2FA41C893638D2215A2 /* Pods-AnotherWorld-acknowledgements.plist */,
+				84EDA3179766939841891652E482EF97 /* Pods-AnotherWorld-dummy.m */,
+				90773A732F7922A69470CBE1D2422022 /* Pods-AnotherWorld-resources.sh */,
+				8C7C2CAB2B566599AADF2AD89BFB1143 /* Pods-AnotherWorld.debug.xcconfig */,
+				3AAD0F4233D8B820EB0D0FE38AA099BD /* Pods-AnotherWorld.release.xcconfig */,
 			);
 			name = "Pods-AnotherWorld";
 			path = "Target Support Files/Pods-AnotherWorld";
 			sourceTree = "<group>";
 		};
-		CF1408CF629C7361332E53B88F7BD30C = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E858A99A3564099E88E4CF05F26A517D /* Pods */,
-				24AA0A2E357338C59C853BEE8862A14F /* Products */,
-				BA35619426F051E051D526BAEAF12E21 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,11 +240,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28E066CE867BF6F33ECE89590FC4C0E4 /* Headers */ = {
+		855CFD9F417E5458E4AE504D68B19353 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1FB2F63AD8B12DC067DEAA53D653AEE /* Pods-AnotherWorld-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,23 +252,22 @@
 /* Begin PBXNativeTarget section */
 		50F7B2945ED57BD114A8CF2A1F5CA987 /* Pods-AnotherWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C03EAEBE1AF9E6AD173852AB26F8714E /* Build configuration list for PBXNativeTarget "Pods-AnotherWorld" */;
+			buildConfigurationList = 650C16EB626236B7E17D257B6C83B51F /* Build configuration list for PBXNativeTarget "Pods-AnotherWorld" */;
 			buildPhases = (
-				28E066CE867BF6F33ECE89590FC4C0E4 /* Headers */,
-				7DD69B51A31F73D93ECC5B1A4081D9F3 /* Sources */,
-				20D544B07FCA75B4F2FA93207CD35388 /* Frameworks */,
-				B947C226ADF76FC302CD1DB0BA694D9D /* Resources */,
+				855CFD9F417E5458E4AE504D68B19353 /* Headers */,
+				BF6C5C24D2B0A0894156E4E2F9326455 /* Sources */,
+				B4D80FB6ADE47560B31B63E734A7535D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59F89AB1AAC07FB69445588F17B6BF0E /* PBXTargetDependency */,
-				6ADCAF30A5B56B27EB8F12BF3F128AE2 /* PBXTargetDependency */,
+				17CF239BA90477D67A6ADE9F9AAFC266 /* PBXTargetDependency */,
+				50BE4A384163E3B63BF566041170CC7F /* PBXTargetDependency */,
 			);
 			name = "Pods-AnotherWorld";
 			productName = "Pods-AnotherWorld";
-			productReference = C9BEB3184A852881D910032D78D2406F /* Pods_AnotherWorld.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = C9BEB3184A852881D910032D78D2406F /* libPods-AnotherWorld.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -308,7 +279,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -316,7 +287,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 24AA0A2E357338C59C853BEE8862A14F /* Products */;
+			productRefGroup = 8FF84775E512BEEB0FF5F5A963DAF225 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -327,56 +298,62 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		B947C226ADF76FC302CD1DB0BA694D9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		7DD69B51A31F73D93ECC5B1A4081D9F3 /* Sources */ = {
+		BF6C5C24D2B0A0894156E4E2F9326455 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0447E7AA5FF7B3A404B9566499D9BE69 /* Pods-AnotherWorld-dummy.m in Sources */,
+				32E7C029B9AC8EE158D08BBCAF5953E1 /* Pods-AnotherWorld-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59F89AB1AAC07FB69445588F17B6BF0E /* PBXTargetDependency */ = {
+		17CF239BA90477D67A6ADE9F9AAFC266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 831B57D23EDED3AEA1C7E0AF31381EFF /* PBXContainerItemProxy */;
+			targetProxy = 67E74B1E3FA996BFCFCA2C84712829F6 /* PBXContainerItemProxy */;
 		};
-		6ADCAF30A5B56B27EB8F12BF3F128AE2 /* PBXTargetDependency */ = {
+		50BE4A384163E3B63BF566041170CC7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = ACE53E3F4B335F1CA09D346E106BBB13 /* PBXContainerItemProxy */;
-		};
-		CCDE3DF5458240F3259D88C46803DEC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleMaps;
-			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 108F9196136F85067DA2F6284C12312A /* PBXContainerItemProxy */;
+			targetProxy = E4D61877A3AA582D75EF25BB33D0ED75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32DB5D5C5FEDFCC50CB6D67FFD6DD388 /* Release */ = {
+		018EFD6ADE3D9380B373943909971844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C2CAB2B566599AADF2AD89BFB1143 /* Pods-AnotherWorld.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3E2C06B0CEEC2B4984526A012D2E9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4658982FD89F2A77A672D9AFC716B28 /* GooglePlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +363,62 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		251009AE8D31BBAAE6B66BC429289841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAD0F4233D8B820EB0D0FE38AA099BD /* Pods-AnotherWorld.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3223257421BF8C748A89FB5FDE0790DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5834AEB702FC0743E58BBE60D611434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -446,6 +479,24 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67B107ED17C6C18DC4B8B4D3356E049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -515,138 +566,14 @@
 			};
 			name = Debug;
 		};
-		6CCBCE52FD46D89565DEB676446DB083 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA12A18F12A10F6BE94B10C390987756 /* GoogleMaps.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7B52AED984E5F96408001A1A7FFB4B3F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E830DD9530F13E283DEC78352A2F03D /* GoogleMaps.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A693BE4584D485CA358D8777FEE590CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C729F3714998C7C3F3D788777A06264 /* GooglePlaces.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C2E3572D810C221438D12D5E8CB5589B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 364078B776FB35435D2BF6D8D1E25864 /* Pods-AnotherWorld.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C51220009DA04DE454715DB913F64273 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 409A5CAC2913799F156F917DC9BBE871 /* Pods-AnotherWorld.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CCBCE52FD46D89565DEB676446DB083 /* Debug */,
-				7B52AED984E5F96408001A1A7FFB4B3F /* Release */,
+				5834AEB702FC0743E58BBE60D611434A /* Debug */,
+				67B107ED17C6C18DC4B8B4D3356E049A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -660,20 +587,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C03EAEBE1AF9E6AD173852AB26F8714E /* Build configuration list for PBXNativeTarget "Pods-AnotherWorld" */ = {
+		650C16EB626236B7E17D257B6C83B51F /* Build configuration list for PBXNativeTarget "Pods-AnotherWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2E3572D810C221438D12D5E8CB5589B /* Debug */,
-				C51220009DA04DE454715DB913F64273 /* Release */,
+				018EFD6ADE3D9380B373943909971844 /* Debug */,
+				251009AE8D31BBAAE6B66BC429289841 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E215DFB4EAE26646AFED2C4861A55C32 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A693BE4584D485CA358D8777FEE590CB /* Debug */,
-				32DB5D5C5FEDFCC50CB6D67FFD6DD388 /* Release */,
+				3223257421BF8C748A89FB5FDE0790DE /* Debug */,
+				1A3E2C06B0CEEC2B4984526A012D2E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

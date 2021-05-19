@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7711573B796B7D5D9800E2E5 /* Pods_AnotherWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06919E6E5C631F1A6DC25C8E /* Pods_AnotherWorld.framework */; };
 		DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E670263527D500EE70B0 /* AppDelegate.swift */; };
 		DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E672263527D500EE70B0 /* SceneDelegate.swift */; };
 		DF07E675263527D500EE70B0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E674263527D500EE70B0 /* SignInViewController.swift */; };
@@ -15,6 +14,9 @@
 		DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF07E679263527D500EE70B0 /* AnotherWorld.xcdatamodeld */; };
 		DF07E67D263527D600EE70B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF07E67C263527D600EE70B0 /* Assets.xcassets */; };
 		DF07E680263527D600EE70B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF07E67E263527D600EE70B0 /* LaunchScreen.storyboard */; };
+		DF2F01BF264F8E0600A24787 /* AttractionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */; };
+		DF2F01CE26516AAD00A24787 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F01CD26516AAD00A24787 /* ApiKeys.swift */; };
+		DF46E953263E544900813EC4 /* ProfileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46E952263E544900813EC4 /* ProfileSearchBar.swift */; };
 		DFAA2C152635B73800562DD6 /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */; };
 		DFAA2C162635B73800562DD6 /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */; };
 		DFAA2C172635B73800562DD6 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */; };
@@ -26,11 +28,15 @@
 		DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174192636E77A0037A2F1 /* LongButton.swift */; };
 		DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1741C263727900037A2F1 /* SignUpViewController.swift */; };
 		DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7B82B263DA666003E43B2 /* MapViewController.swift */; };
+		DFE7A339264D782F00FE389D /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A338264D782F00FE389D /* K.swift */; };
+		DFE7A33C264D78B500FE389D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A33B264D78B500FE389D /* FavoritesViewController.swift */; };
+		DFE7A33F264D7B7B00FE389D /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A33E264D7B7B00FE389D /* AttractionTableViewCell.swift */; };
+		FD84EC71B1997974C94B9A66 /* libPods-AnotherWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DF7D1CCC141F691248C925 /* libPods-AnotherWorld.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06919E6E5C631F1A6DC25C8E /* Pods_AnotherWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnotherWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0A52878B7B162BC0ED106D /* Pods-AnotherWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnotherWorld.debug.xcconfig"; path = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		65DF7D1CCC141F691248C925 /* libPods-AnotherWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnotherWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB55F4825C8B7169B4C1063 /* Pods-AnotherWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnotherWorld.release.xcconfig"; path = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.release.xcconfig"; sourceTree = "<group>"; };
 		DF07E66D263527D500EE70B0 /* AnotherWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnotherWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF07E670263527D500EE70B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,9 @@
 		DF07E67C263527D600EE70B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF07E67F263527D600EE70B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF07E681263527D600EE70B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttractionTableViewCell.xib; sourceTree = "<group>"; };
+		DF2F01CD26516AAD00A24787 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		DF46E952263E544900813EC4 /* ProfileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSearchBar.swift; sourceTree = "<group>"; };
 		DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
 		DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Light.ttf"; sourceTree = "<group>"; };
 		DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
@@ -52,6 +61,9 @@
 		DFD174192636E77A0037A2F1 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 		DFD1741C263727900037A2F1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DFD7B82B263DA666003E43B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DFE7A338264D782F00FE389D /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		DFE7A33B264D78B500FE389D /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		DFE7A33E264D7B7B00FE389D /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7711573B796B7D5D9800E2E5 /* Pods_AnotherWorld.framework in Frameworks */,
+				FD84EC71B1997974C94B9A66 /* libPods-AnotherWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +148,8 @@
 				DF07E676263527D500EE70B0 /* Main.storyboard */,
 				DFD174152636C5D40037A2F1 /* IconTextField.swift */,
 				DFD174192636E77A0037A2F1 /* LongButton.swift */,
+				DF46E952263E544900813EC4 /* ProfileSearchBar.swift */,
+				DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +162,10 @@
 				DF07E674263527D500EE70B0 /* SignInViewController.swift */,
 				DFD1741C263727900037A2F1 /* SignUpViewController.swift */,
 				DFD7B82B263DA666003E43B2 /* MapViewController.swift */,
+				DFE7A33B264D78B500FE389D /* FavoritesViewController.swift */,
+				DFE7A33E264D7B7B00FE389D /* AttractionTableViewCell.swift */,
+				DFE7A338264D782F00FE389D /* K.swift */,
+				DF2F01CD26516AAD00A24787 /* ApiKeys.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -155,7 +173,7 @@
 		EE9BDA6CCD15CED2EBB76833 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06919E6E5C631F1A6DC25C8E /* Pods_AnotherWorld.framework */,
+				65DF7D1CCC141F691248C925 /* libPods-AnotherWorld.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +239,7 @@
 			files = (
 				DF07E680263527D600EE70B0 /* LaunchScreen.storyboard in Resources */,
 				DFAA2C1C2635B73800562DD6 /* Sora-SemiBold.ttf in Resources */,
+				DF2F01BF264F8E0600A24787 /* AttractionTableViewCell.xib in Resources */,
 				DFAA2C152635B73800562DD6 /* Sora-ExtraBold.ttf in Resources */,
 				DFAA2C182635B73800562DD6 /* Sora-Thin.ttf in Resources */,
 				DFAA2C162635B73800562DD6 /* Sora-Light.ttf in Resources */,
@@ -281,10 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF46E953263E544900813EC4 /* ProfileSearchBar.swift in Sources */,
+				DFE7A33F264D7B7B00FE389D /* AttractionTableViewCell.swift in Sources */,
+				DFE7A339264D782F00FE389D /* K.swift in Sources */,
 				DF07E675263527D500EE70B0 /* SignInViewController.swift in Sources */,
 				DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */,
 				DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */,
 				DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */,
+				DFE7A33C264D78B500FE389D /* FavoritesViewController.swift in Sources */,
+				DF2F01CE26516AAD00A24787 /* ApiKeys.swift in Sources */,
 				DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */,
 				DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */,
 				DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */,

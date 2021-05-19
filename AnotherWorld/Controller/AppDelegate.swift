@@ -8,6 +8,7 @@
 import UIKit
 import CoreData
 import GoogleMaps
+import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
-        GMSServices.provideAPIKey("AIzaSyAi-1Wv_Tl9sFV5VGz_5jZgD_Fr7Sf3gVA")
+        print("Entering AppDelegate.swift now...")
+
+        print("Sending API key to Google Services and Places Client")
+        let GMSServicesKeyValid = GMSServices.provideAPIKey(ApiKeys.mapsAPI)
+        let GMSServicesSDKVer = GMSServices.sdkVersion()
+        print("GMS Services Key Valid: ", GMSServicesKeyValid)
+        print("GMS Services SDK version: ", GMSServicesSDKVer)
+        
+        let GMSPlacesKeyValid = GMSPlacesClient.provideAPIKey(ApiKeys.placesAPI)
+        let GMSPlacesSDKVer = GMSPlacesClient.sdkVersion()
+        print("GMS Places Key Valid: ", GMSPlacesKeyValid)
+        print("GMS Places SDK version: ", GMSPlacesSDKVer)
+
+        print("Leaving AppDelegate.s`enter code here`wift now...")
         return true
     }
 
