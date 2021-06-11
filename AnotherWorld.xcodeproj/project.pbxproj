@@ -17,6 +17,7 @@
 		DF2F01BF264F8E0600A24787 /* AttractionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */; };
 		DF2F01CE26516AAD00A24787 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F01CD26516AAD00A24787 /* ApiKeys.swift */; };
 		DF46E953263E544900813EC4 /* ProfileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46E952263E544900813EC4 /* ProfileSearchBar.swift */; };
+		DFA5C27526580413009C7FE3 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5C27426580413009C7FE3 /* Attraction.swift */; };
 		DFAA2C152635B73800562DD6 /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */; };
 		DFAA2C162635B73800562DD6 /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */; };
 		DFAA2C172635B73800562DD6 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */; };
@@ -50,6 +51,7 @@
 		DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttractionTableViewCell.xib; sourceTree = "<group>"; };
 		DF2F01CD26516AAD00A24787 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 		DF46E952263E544900813EC4 /* ProfileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSearchBar.swift; sourceTree = "<group>"; };
+		DFA5C27426580413009C7FE3 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
 		DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Light.ttf"; sourceTree = "<group>"; };
 		DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		DFB98BD92636C2CD000DAF36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DFA5C27426580413009C7FE3 /* Attraction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				DFE7A33C264D78B500FE389D /* FavoritesViewController.swift in Sources */,
 				DF2F01CE26516AAD00A24787 /* ApiKeys.swift in Sources */,
 				DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */,
+				DFA5C27526580413009C7FE3 /* Attraction.swift in Sources */,
 				DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */,
 				DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */,
 				DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */,
