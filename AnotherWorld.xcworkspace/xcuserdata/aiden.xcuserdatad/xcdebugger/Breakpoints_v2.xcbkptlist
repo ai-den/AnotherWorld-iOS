@@ -36,5 +36,245 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherWorld/Controller/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "settingList"
+            landmarkType = "24">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "print settingList">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC - e6dc5e30147525fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.getter : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC - 9368a49aaf15cc82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.setter : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC - cfde37eb4dddf0b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.modify : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC - f9c52a67ca12fd4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.modify : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC - 4e06c9405ac3d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AnotherWorld.ProfileViewController"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "C7333A09-D69B-4A0A-9026-1E4D557AF6AC - afa60adc6336fc0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AnotherWorld.ProfileViewController&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02A40C7F-6193-4F47-B411-AF4C091DC3BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherWorld/Controller/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherWorld/Controller/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ProfileViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB - e6dc5e30147525fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.getter : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB - 9368a49aaf15cc82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.setter : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB - cfde37eb4dddf0b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.modify : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB - f9c52a67ca12fd4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.settingList.modify : Swift.Array&lt;Swift.Array&lt;AnotherWorld.Setting&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB - 4e06c9405ac3d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AnotherWorld.ProfileViewController"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "470">
+               </Location>
+               <Location
+                  uuid = "A7C129EE-856C-427E-90F6-FE9D65B7B3CB - afa60adc6336fc0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherWorld.ProfileViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AnotherWorld.ProfileViewController&gt;"
+                  moduleName = "AnotherWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aiden/Documents/Computer%20Science/4th%20Year/Senior%20Project/AnotherWorld-iOS/AnotherWorld/AnotherWorld/Controller/ProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "402">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

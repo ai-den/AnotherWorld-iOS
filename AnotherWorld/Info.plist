@@ -4,13 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Sora-Bold.ttf</string>
-		<string>Sora-ExtraBold.ttf</string>
-		<string>Sora-SemiBold.ttf</string>
-		<string>Sora-Regular.ttf</string>
-		<string>Sora-Light.ttf</string>
-		<string>Sora-Medium.ttf</string>
-		<string>Sora-Thin.ttf</string>
+		<string>SF-ProRounded-Regular.otf</string>
+		<string>SFProRounded-Medium.otf</string>
+		<string>SF-Pro-Rounded-Semibold.otf</string>
+		<string>SF-Pro-Rounded-Bold.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>

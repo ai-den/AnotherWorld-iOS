@@ -9,6 +9,8 @@ import UIKit
 
 class DiaryCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var diaryImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -7,31 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E670263527D500EE70B0 /* AppDelegate.swift */; };
-		DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E672263527D500EE70B0 /* SceneDelegate.swift */; };
-		DF07E675263527D500EE70B0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07E674263527D500EE70B0 /* SignInViewController.swift */; };
 		DF07E678263527D500EE70B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF07E676263527D500EE70B0 /* Main.storyboard */; };
-		DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF07E679263527D500EE70B0 /* AnotherWorld.xcdatamodeld */; };
 		DF07E67D263527D600EE70B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF07E67C263527D600EE70B0 /* Assets.xcassets */; };
 		DF07E680263527D600EE70B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF07E67E263527D600EE70B0 /* LaunchScreen.storyboard */; };
 		DF2F01BF264F8E0600A24787 /* AttractionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */; };
-		DF2F01CE26516AAD00A24787 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F01CD26516AAD00A24787 /* ApiKeys.swift */; };
+		DF44F0CF26E134DA00C726C5 /* DiaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0C426E134D900C726C5 /* DiaryCollectionViewCell.swift */; };
+		DF44F0D026E134DA00C726C5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0C526E134DA00C726C5 /* ProfileViewController.swift */; };
+		DF44F0D226E134DA00C726C5 /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0C726E134DA00C726C5 /* AttractionTableViewCell.swift */; };
+		DF44F0D626E134DA00C726C5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0CB26E134DA00C726C5 /* SignInViewController.swift */; };
+		DF44F0D726E134DA00C726C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0CC26E134DA00C726C5 /* MapViewController.swift */; };
+		DF44F0DF26E135C000C726C5 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0DA26E135C000C726C5 /* K.swift */; };
+		DF44F0E026E135C000C726C5 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0DB26E135C000C726C5 /* Diary.swift */; };
+		DF44F0E126E135C000C726C5 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0DC26E135C000C726C5 /* ApiKeys.swift */; };
+		DF44F0E326E135C000C726C5 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0DE26E135C000C726C5 /* Attraction.swift */; };
+		DF44F0ED26E135EB00C726C5 /* DiaryCollectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF44F0E426E135EB00C726C5 /* DiaryCollectionHeader.xib */; };
+		DF44F0F026E135EB00C726C5 /* DiaryCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0E726E135EB00C726C5 /* DiaryCollectionHeader.swift */; };
+		DF44F0F126E135EB00C726C5 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0E826E135EB00C726C5 /* IconTextField.swift */; };
+		DF44F0F526E135EB00C726C5 /* DiaryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF44F0EC26E135EB00C726C5 /* DiaryCollectionViewCell.xib */; };
+		DF44F0FC26E1363F00C726C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF44F0F626E1363F00C726C5 /* GoogleService-Info.plist */; };
+		DF44F0FD26E1363F00C726C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0F726E1363F00C726C5 /* AppDelegate.swift */; };
+		DF44F0FF26E1363F00C726C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0F926E1363F00C726C5 /* SceneDelegate.swift */; };
+		DF44F10026E1363F00C726C5 /* AnotherWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF44F0FA26E1363F00C726C5 /* AnotherWorld.xcdatamodeld */; };
+		DF44F11926E1378C00C726C5 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF44F10226E1378B00C726C5 /* SF-Pro-Rounded-Regular.otf */; };
+		DF44F11A26E1378C00C726C5 /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF44F10326E1378B00C726C5 /* SF-Pro-Rounded-Ultralight.otf */; };
+		DF44F12826E1378C00C726C5 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF44F11126E1378C00C726C5 /* SF-Pro-Rounded-Medium.otf */; };
+		DF44F12A26E1378C00C726C5 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF44F11326E1378C00C726C5 /* SF-Pro-Rounded-Semibold.otf */; };
+		DF44F12E26E1378C00C726C5 /* SF-Pro-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF44F11726E1378C00C726C5 /* SF-Pro-Rounded-Thin.otf */; };
+		DF44F13026E3410900C726C5 /* DiaryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44F12F26E3410900C726C5 /* DiaryCollectionViewController.swift */; };
 		DF46E953263E544900813EC4 /* ProfileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF46E952263E544900813EC4 /* ProfileSearchBar.swift */; };
-		DFA5C27526580413009C7FE3 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5C27426580413009C7FE3 /* Attraction.swift */; };
-		DFAA2C152635B73800562DD6 /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */; };
-		DFAA2C162635B73800562DD6 /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */; };
-		DFAA2C172635B73800562DD6 /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */; };
-		DFAA2C182635B73800562DD6 /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C102635B73800562DD6 /* Sora-Thin.ttf */; };
-		DFAA2C192635B73800562DD6 /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C112635B73800562DD6 /* Sora-Medium.ttf */; };
-		DFAA2C1B2635B73800562DD6 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C132635B73800562DD6 /* Sora-Bold.ttf */; };
-		DFAA2C1C2635B73800562DD6 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAA2C142635B73800562DD6 /* Sora-SemiBold.ttf */; };
-		DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174152636C5D40037A2F1 /* IconTextField.swift */; };
+		DF733D3526E65CE000B09530 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF733D3426E65CE000B09530 /* DiaryViewController.swift */; };
+		DF733D3726EA638A00B09530 /* EditDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF733D3626EA638A00B09530 /* EditDiaryViewController.swift */; };
+		DF733D5B26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF733D5A26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf */; };
 		DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174192636E77A0037A2F1 /* LongButton.swift */; };
 		DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1741C263727900037A2F1 /* SignUpViewController.swift */; };
 		DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7B82B263DA666003E43B2 /* MapViewController.swift */; };
-		DFE7A339264D782F00FE389D /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A338264D782F00FE389D /* K.swift */; };
-		DFE7A33C264D78B500FE389D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A33B264D78B500FE389D /* FavoritesViewController.swift */; };
-		DFE7A33F264D7B7B00FE389D /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A33E264D7B7B00FE389D /* AttractionTableViewCell.swift */; };
 		FD84EC71B1997974C94B9A66 /* libPods-AnotherWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DF7D1CCC141F691248C925 /* libPods-AnotherWorld.a */; };
 /* End PBXBuildFile section */
 
@@ -40,32 +49,41 @@
 		65DF7D1CCC141F691248C925 /* libPods-AnotherWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnotherWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB55F4825C8B7169B4C1063 /* Pods-AnotherWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnotherWorld.release.xcconfig"; path = "Target Support Files/Pods-AnotherWorld/Pods-AnotherWorld.release.xcconfig"; sourceTree = "<group>"; };
 		DF07E66D263527D500EE70B0 /* AnotherWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnotherWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF07E670263527D500EE70B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF07E672263527D500EE70B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF07E674263527D500EE70B0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DF07E677263527D500EE70B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF07E67A263527D500EE70B0 /* AnotherWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnotherWorld.xcdatamodel; sourceTree = "<group>"; };
 		DF07E67C263527D600EE70B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF07E67F263527D600EE70B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF07E681263527D600EE70B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttractionTableViewCell.xib; sourceTree = "<group>"; };
-		DF2F01CD26516AAD00A24787 /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		DF44F0C426E134D900C726C5 /* DiaryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF44F0C526E134DA00C726C5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DF44F0C726E134DA00C726C5 /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
+		DF44F0CB26E134DA00C726C5 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DF44F0CC26E134DA00C726C5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DF44F0DA26E135C000C726C5 /* K.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		DF44F0DB26E135C000C726C5 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		DF44F0DC26E135C000C726C5 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		DF44F0DE26E135C000C726C5 /* Attraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
+		DF44F0E426E135EB00C726C5 /* DiaryCollectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryCollectionHeader.xib; sourceTree = "<group>"; };
+		DF44F0E726E135EB00C726C5 /* DiaryCollectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryCollectionHeader.swift; sourceTree = "<group>"; };
+		DF44F0E826E135EB00C726C5 /* IconTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		DF44F0EC26E135EB00C726C5 /* DiaryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryCollectionViewCell.xib; sourceTree = "<group>"; };
+		DF44F0F626E1363F00C726C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF44F0F726E1363F00C726C5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF44F0F826E1363F00C726C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF44F0F926E1363F00C726C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF44F0FB26E1363F00C726C5 /* AnotherWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnotherWorld.xcdatamodel; sourceTree = "<group>"; };
+		DF44F10226E1378B00C726C5 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		DF44F10326E1378B00C726C5 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
+		DF44F11126E1378C00C726C5 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		DF44F11326E1378C00C726C5 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		DF44F11726E1378C00C726C5 /* SF-Pro-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		DF44F12F26E3410900C726C5 /* DiaryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCollectionViewController.swift; sourceTree = "<group>"; };
 		DF46E952263E544900813EC4 /* ProfileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSearchBar.swift; sourceTree = "<group>"; };
-		DFA5C27426580413009C7FE3 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
-		DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
-		DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Light.ttf"; sourceTree = "<group>"; };
-		DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
-		DFAA2C102635B73800562DD6 /* Sora-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Thin.ttf"; sourceTree = "<group>"; };
-		DFAA2C112635B73800562DD6 /* Sora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Medium.ttf"; sourceTree = "<group>"; };
-		DFAA2C132635B73800562DD6 /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Bold.ttf"; sourceTree = "<group>"; };
-		DFAA2C142635B73800562DD6 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
-		DFD174152636C5D40037A2F1 /* IconTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		DF733D3426E65CE000B09530 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		DF733D3626EA638A00B09530 /* EditDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDiaryViewController.swift; sourceTree = "<group>"; };
+		DF733D5A26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		DFD174192636E77A0037A2F1 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 		DFD1741C263727900037A2F1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DFD7B82B263DA666003E43B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		DFE7A338264D782F00FE389D /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
-		DFE7A33B264D78B500FE389D /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		DFE7A33E264D7B7B00FE389D /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +128,17 @@
 		DF07E66F263527D500EE70B0 /* AnotherWorld */ = {
 			isa = PBXGroup;
 			children = (
-				DFB98BDB2636C2E7000DAF36 /* Controller */,
-				DFB98BDA2636C2D1000DAF36 /* View */,
 				DFB98BD92636C2CD000DAF36 /* Model */,
-				DF07E67C263527D600EE70B0 /* Assets.xcassets */,
-				DF07E67E263527D600EE70B0 /* LaunchScreen.storyboard */,
-				DF07E681263527D600EE70B0 /* Info.plist */,
-				DF07E679263527D500EE70B0 /* AnotherWorld.xcdatamodeld */,
+				DFB98BDA2636C2D1000DAF36 /* View */,
+				DFB98BDB2636C2E7000DAF36 /* Controller */,
 				DFAA2C0B2635B6F000562DD6 /* Fonts */,
+				DF07E67C263527D600EE70B0 /* Assets.xcassets */,
+				DF44F0FA26E1363F00C726C5 /* AnotherWorld.xcdatamodeld */,
+				DF44F0F726E1363F00C726C5 /* AppDelegate.swift */,
+				DF44F0F626E1363F00C726C5 /* GoogleService-Info.plist */,
+				DF44F0F826E1363F00C726C5 /* Info.plist */,
+				DF44F0F926E1363F00C726C5 /* SceneDelegate.swift */,
+				DF07E67E263527D600EE70B0 /* LaunchScreen.storyboard */,
 			);
 			path = AnotherWorld;
 			sourceTree = "<group>";
@@ -125,13 +146,12 @@
 		DFAA2C0B2635B6F000562DD6 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				DFAA2C132635B73800562DD6 /* Sora-Bold.ttf */,
-				DFAA2C0D2635B73800562DD6 /* Sora-ExtraBold.ttf */,
-				DFAA2C0E2635B73800562DD6 /* Sora-Light.ttf */,
-				DFAA2C112635B73800562DD6 /* Sora-Medium.ttf */,
-				DFAA2C0F2635B73800562DD6 /* Sora-Regular.ttf */,
-				DFAA2C142635B73800562DD6 /* Sora-SemiBold.ttf */,
-				DFAA2C102635B73800562DD6 /* Sora-Thin.ttf */,
+				DF44F11126E1378C00C726C5 /* SF-Pro-Rounded-Medium.otf */,
+				DF44F10226E1378B00C726C5 /* SF-Pro-Rounded-Regular.otf */,
+				DF44F11326E1378C00C726C5 /* SF-Pro-Rounded-Semibold.otf */,
+				DF44F11726E1378C00C726C5 /* SF-Pro-Rounded-Thin.otf */,
+				DF44F10326E1378B00C726C5 /* SF-Pro-Rounded-Ultralight.otf */,
+				DF733D5A26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -140,7 +160,10 @@
 		DFB98BD92636C2CD000DAF36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DFA5C27426580413009C7FE3 /* Attraction.swift */,
+				DF44F0DC26E135C000C726C5 /* ApiKeys.swift */,
+				DF44F0DE26E135C000C726C5 /* Attraction.swift */,
+				DF44F0DB26E135C000C726C5 /* Diary.swift */,
+				DF44F0DA26E135C000C726C5 /* K.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,10 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				DF07E676263527D500EE70B0 /* Main.storyboard */,
-				DFD174152636C5D40037A2F1 /* IconTextField.swift */,
+				DF44F0EC26E135EB00C726C5 /* DiaryCollectionViewCell.xib */,
+				DF44F0E426E135EB00C726C5 /* DiaryCollectionHeader.xib */,
+				DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */,
+				DF44F0E826E135EB00C726C5 /* IconTextField.swift */,
 				DFD174192636E77A0037A2F1 /* LongButton.swift */,
 				DF46E952263E544900813EC4 /* ProfileSearchBar.swift */,
-				DF2F01BE264F8E0600A24787 /* AttractionTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,15 +185,17 @@
 		DFB98BDB2636C2E7000DAF36 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DF07E670263527D500EE70B0 /* AppDelegate.swift */,
-				DF07E672263527D500EE70B0 /* SceneDelegate.swift */,
-				DF07E674263527D500EE70B0 /* SignInViewController.swift */,
+				DF44F0CB26E134DA00C726C5 /* SignInViewController.swift */,
 				DFD1741C263727900037A2F1 /* SignUpViewController.swift */,
+				DF44F0E726E135EB00C726C5 /* DiaryCollectionHeader.swift */,
 				DFD7B82B263DA666003E43B2 /* MapViewController.swift */,
-				DFE7A33B264D78B500FE389D /* FavoritesViewController.swift */,
-				DFE7A33E264D7B7B00FE389D /* AttractionTableViewCell.swift */,
-				DFE7A338264D782F00FE389D /* K.swift */,
-				DF2F01CD26516AAD00A24787 /* ApiKeys.swift */,
+				DF44F0C726E134DA00C726C5 /* AttractionTableViewCell.swift */,
+				DF44F12F26E3410900C726C5 /* DiaryCollectionViewController.swift */,
+				DF44F0C426E134D900C726C5 /* DiaryCollectionViewCell.swift */,
+				DF44F0CC26E134DA00C726C5 /* MapViewController.swift */,
+				DF44F0C526E134DA00C726C5 /* ProfileViewController.swift */,
+				DF733D3426E65CE000B09530 /* DiaryViewController.swift */,
+				DF733D3626EA638A00B09530 /* EditDiaryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -241,15 +268,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF07E680263527D600EE70B0 /* LaunchScreen.storyboard in Resources */,
-				DFAA2C1C2635B73800562DD6 /* Sora-SemiBold.ttf in Resources */,
+				DF733D5B26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf in Resources */,
+				DF44F12E26E1378C00C726C5 /* SF-Pro-Rounded-Thin.otf in Resources */,
+				DF44F12826E1378C00C726C5 /* SF-Pro-Rounded-Medium.otf in Resources */,
 				DF2F01BF264F8E0600A24787 /* AttractionTableViewCell.xib in Resources */,
-				DFAA2C152635B73800562DD6 /* Sora-ExtraBold.ttf in Resources */,
-				DFAA2C182635B73800562DD6 /* Sora-Thin.ttf in Resources */,
-				DFAA2C162635B73800562DD6 /* Sora-Light.ttf in Resources */,
+				DF44F0ED26E135EB00C726C5 /* DiaryCollectionHeader.xib in Resources */,
+				DF44F0F526E135EB00C726C5 /* DiaryCollectionViewCell.xib in Resources */,
+				DF44F0FC26E1363F00C726C5 /* GoogleService-Info.plist in Resources */,
+				DF44F11A26E1378C00C726C5 /* SF-Pro-Rounded-Ultralight.otf in Resources */,
+				DF44F12A26E1378C00C726C5 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				DF44F11926E1378C00C726C5 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				DF07E67D263527D600EE70B0 /* Assets.xcassets in Resources */,
-				DFAA2C172635B73800562DD6 /* Sora-Regular.ttf in Resources */,
-				DFAA2C192635B73800562DD6 /* Sora-Medium.ttf in Resources */,
-				DFAA2C1B2635B73800562DD6 /* Sora-Bold.ttf in Resources */,
 				DF07E678263527D500EE70B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,19 +332,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF44F0D626E134DA00C726C5 /* SignInViewController.swift in Sources */,
+				DF44F0E326E135C000C726C5 /* Attraction.swift in Sources */,
+				DF44F0FD26E1363F00C726C5 /* AppDelegate.swift in Sources */,
+				DF44F0FF26E1363F00C726C5 /* SceneDelegate.swift in Sources */,
 				DF46E953263E544900813EC4 /* ProfileSearchBar.swift in Sources */,
-				DFE7A33F264D7B7B00FE389D /* AttractionTableViewCell.swift in Sources */,
-				DFE7A339264D782F00FE389D /* K.swift in Sources */,
-				DF07E675263527D500EE70B0 /* SignInViewController.swift in Sources */,
+				DF44F0CF26E134DA00C726C5 /* DiaryCollectionViewCell.swift in Sources */,
+				DF44F0F126E135EB00C726C5 /* IconTextField.swift in Sources */,
 				DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */,
+				DF44F0F026E135EB00C726C5 /* DiaryCollectionHeader.swift in Sources */,
+				DF733D3726EA638A00B09530 /* EditDiaryViewController.swift in Sources */,
+				DF44F0D726E134DA00C726C5 /* MapViewController.swift in Sources */,
+				DF44F10026E1363F00C726C5 /* AnotherWorld.xcdatamodeld in Sources */,
+				DF44F13026E3410900C726C5 /* DiaryCollectionViewController.swift in Sources */,
+				DF44F0D026E134DA00C726C5 /* ProfileViewController.swift in Sources */,
 				DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */,
-				DF07E671263527D500EE70B0 /* AppDelegate.swift in Sources */,
-				DFE7A33C264D78B500FE389D /* FavoritesViewController.swift in Sources */,
-				DF2F01CE26516AAD00A24787 /* ApiKeys.swift in Sources */,
-				DFD174162636C5D40037A2F1 /* IconTextField.swift in Sources */,
-				DFA5C27526580413009C7FE3 /* Attraction.swift in Sources */,
-				DF07E67B263527D500EE70B0 /* AnotherWorld.xcdatamodeld in Sources */,
-				DF07E673263527D500EE70B0 /* SceneDelegate.swift in Sources */,
+				DF44F0D226E134DA00C726C5 /* AttractionTableViewCell.swift in Sources */,
+				DF44F0E026E135C000C726C5 /* Diary.swift in Sources */,
+				DF733D3526E65CE000B09530 /* DiaryViewController.swift in Sources */,
+				DF44F0E126E135C000C726C5 /* ApiKeys.swift in Sources */,
+				DF44F0DF26E135C000C726C5 /* K.swift in Sources */,
 				DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,12 +558,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DF07E679263527D500EE70B0 /* AnotherWorld.xcdatamodeld */ = {
+		DF44F0FA26E1363F00C726C5 /* AnotherWorld.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DF07E67A263527D500EE70B0 /* AnotherWorld.xcdatamodel */,
+				DF44F0FB26E1363F00C726C5 /* AnotherWorld.xcdatamodel */,
 			);
-			currentVersion = DF07E67A263527D500EE70B0 /* AnotherWorld.xcdatamodel */;
+			currentVersion = DF44F0FB26E1363F00C726C5 /* AnotherWorld.xcdatamodel */;
 			path = AnotherWorld.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

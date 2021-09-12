@@ -1,62 +1,99 @@
 //
-//  FavoritesViewController.swift
+//  DiaryViewController.swift
 //  AnotherWorld
 //
-//  Created by Aiden on 13/05/2021.
+//  Created by Aiden on 06/09/2021.
 //
 
 import UIKit
 
 class DiaryViewController: UIViewController {
+
+    @IBOutlet weak var diaryTitle: UILabel!
+    @IBOutlet weak var diaryCreation: UILabel!
+    @IBOutlet weak var diaryModification: UILabel!
+    @IBOutlet weak var diaryBody: UILabel!
+    @IBOutlet weak var imageSlider: UICollectionView!
+    @IBOutlet weak var pageControl: UIPageControl!
     
-    
-    @IBOutlet weak var tableView: UITableView!
-    
+    var images: [UIImage] = [
+        UIImage(named: "img1")!,
+        UIImage(named: "img2")!,
+        UIImage(named: "img3")!,
+        UIImage(named: "img4")!,
+        UIImage(named: "img5")!
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.rowHeight = 127
-        tableView.register(UINib(nibName: K.attractionTableViewCellNIB, bundle: nil), forCellReuseIdentifier: K.attractionTableViewCell)
-
+        // PageControl
+        pageControl.numberOfPages = images.count
+        pageControl.currentPage = 0
+        
+        // ImageSlider
+        imageSlider.delegate = self
+        imageSlider.dataSource = self
+        imageSlider.register(UINib(nibName: "\(DiaryCollectionViewCell.self)", bundle: nil), forCellWithReuseIdentifier: K.diaryCollectionCell)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.barTintColor = .white
+        navigationController?.navigationBar.barStyle = .default
+    }
+    
+    @IBAction func didChangePageControl(_ sender: UIPageControl) {
+        imageSlider.scrollToItem(at: IndexPath(row: pageControl.currentPage, section: 0), at: .centeredHorizontally, animated: true)
+    }
+    @IBAction func editDiary(_ sender: Any) {
+        performSegue(withIdentifier: "toEditDiary", sender: self)
+    }
+    
 }
 
-// =========================================
-// MARK: - TableView Delegate
-// =========================================
-extension DiaryViewController: UITableViewDelegate {
+
+// MARK: Collection Delegate
+extension DiaryViewController: UICollectionViewDelegate {
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: K.Segues.toAttractionView, sender: nil)
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        // Updating pageControl current page
+        let x = scrollView.contentOffset.x
+        let w = scrollView.bounds.size.width
+        print("X: \(x), W: \(w)")
+        pageControl.currentPage = Int(x/w)
+        
     }
     
 }
 
-
-// =========================================
-// MARK: - TablView DataSource
-// =========================================
-extension DiaryViewController: UITableViewDataSource {
+// MARK: Collection DataSource
+extension DiaryViewController: UICollectionViewDataSource {
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return images.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: K.attractionTableViewCell, for: indexPath) as! AttractionTableViewCell
-        cell.attractionTitle.text = "Eiffle Tower"
-        cell.attractionLocation.text = "Paris, France"
-        cell.attractionStatus.text = "New"
-        cell.attractionImage.image = UIImage(imageLiteralResourceName: "EiffleTower1")
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: K.diaryCollectionCell, for: indexPath) as! DiaryCollectionViewCell
+        cell.diaryImageView.contentMode = .scaleAspectFit
+        cell.diaryImageView.image = images[indexPath.row]
         return cell
     }
     
     
+}
 
+
+// MARK: Collection Flowlayout
+extension DiaryViewController: UICollectionViewDelegateFlowLayout {
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return collectionView.frame.size
+    }
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0.0
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0.0
+    }
 }

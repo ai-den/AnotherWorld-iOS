@@ -10,6 +10,19 @@ import Foundation
 struct K {
     static let attractionTableViewCell = "AttractionTableViewCell"
     static let attractionTableViewCellNIB = "AttractionTableViewCell"
+    static let diaryCollectionCell = "diaryCollectionCell"
+    
+    struct Fonts {
+        static let sfprorounded_SemiBold = "SFProRounded-Semibold"
+        static let sfprorounded_Bold = "SFProRounded-Bold"
+    }
+    
+    struct Colors {
+        static let primary = "Primary"
+        static let primaryAccent = "Primary Accent"
+        static let secondary = "Secondary"
+    }
+    
     
     static let regionIdentifications: [String] = [
         "locality",

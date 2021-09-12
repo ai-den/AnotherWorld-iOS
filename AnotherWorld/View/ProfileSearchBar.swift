@@ -29,8 +29,6 @@ public class ProfileSearchBar: UIView {
     // =========================================
     // MARK: - Delegate variable
     // =========================================
-    
-    
     override public init(frame: CGRect) {
         super.init(frame: frame)
         setUpUI()
