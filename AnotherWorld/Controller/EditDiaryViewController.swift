@@ -37,6 +37,7 @@ class EditDiaryViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = false
         navigationController?.navigationBar.barTintColor = .white
         navigationController?.navigationBar.barStyle = .default
     }
@@ -50,6 +51,11 @@ class EditDiaryViewController: UIViewController {
     }
     
     @IBAction func doneEditing(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func toSelectPlace(_ sender: Any) {
+        performSegue(withIdentifier: K.Segues.toSelectPlace, sender: nil)
     }
     
 }

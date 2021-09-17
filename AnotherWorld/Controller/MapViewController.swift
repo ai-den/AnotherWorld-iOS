@@ -26,14 +26,24 @@ class MapViewController: UIViewController, UITableViewDelegate {
     var mapView: GMSMapView!
     var camera: GMSCameraPosition!
         
+    @IBOutlet weak var addDiaryButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
         loadAllViews()
         print("SearchBar width \(searchBar.frame.width)  height \(searchBar.frame.height)")
         
         searchBar.delegate = self
         
+        
+        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
     
     
     // This is for manual table
@@ -120,6 +130,14 @@ class MapViewController: UIViewController, UITableViewDelegate {
 
         view.addSubview(popUpView)
         
+        // Add diary button
+        addDiaryButton.layer.cornerRadius = addDiaryButton.frame.width/2
+        if addDiaryButton.imageView != nil {
+            addDiaryButton.imageView!.preferredSymbolConfiguration = UIImage.SymbolConfiguration(pointSize: 50)
+        } else {
+            print("ImageView is empty.")
+        }
+        
         
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
@@ -136,9 +154,15 @@ class MapViewController: UIViewController, UITableViewDelegate {
         print(popUpView.frame.height)
         view.bringSubviewToFront(popUpView)
         view.bringSubviewToFront(searchBar)
+        view.bringSubviewToFront(addDiaryButton)
         popUpView.isHidden = true
     }
-
+    
+    
+    @IBAction func clickedAddDiary(_ sender: Any) {
+        performSegue(withIdentifier: K.Segues.toAddDiary, sender: nil)
+    }
+    
 }
 
 
@@ -174,7 +198,7 @@ extension MapViewController: UISearchBarDelegate {
         searchBar.endEditing(true)
         UIView.transition(with: popUpView, duration: 0.5, options: .transitionCrossDissolve, animations: {
             self.popUpView.isHidden = true
-            self.navigationController!.navigationBar.isHidden = false
+            self.navigationController!.navigationBar.isHidden = true
         }, completion: nil)
     }
 

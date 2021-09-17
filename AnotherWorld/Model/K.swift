@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//<!--fHV-pv-wGm-->
 struct K {
     static let attractionTableViewCell = "AttractionTableViewCell"
     static let attractionTableViewCellNIB = "AttractionTableViewCell"
@@ -21,6 +21,12 @@ struct K {
         static let primary = "Primary"
         static let primaryAccent = "Primary Accent"
         static let secondary = "Secondary"
+    }
+    
+    struct Segues {
+        static let toEditDiary = "toEditDiary"
+        static let toAddDiary = "toAddDiary"
+        static let toSelectPlace = "toSelectPlace"
     }
     
     

@@ -38,6 +38,7 @@
 		DF733D3526E65CE000B09530 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF733D3426E65CE000B09530 /* DiaryViewController.swift */; };
 		DF733D3726EA638A00B09530 /* EditDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF733D3626EA638A00B09530 /* EditDiaryViewController.swift */; };
 		DF733D5B26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF733D5A26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf */; };
+		DF891A6426F461390040A1AD /* PlaceSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF891A6326F461390040A1AD /* PlaceSelectViewController.swift */; };
 		DFD1741A2636E77A0037A2F1 /* LongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD174192636E77A0037A2F1 /* LongButton.swift */; };
 		DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD1741C263727900037A2F1 /* SignUpViewController.swift */; };
 		DFD7B82C263DA666003E43B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD7B82B263DA666003E43B2 /* MapViewController.swift */; };
@@ -81,6 +82,7 @@
 		DF733D3426E65CE000B09530 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		DF733D3626EA638A00B09530 /* EditDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDiaryViewController.swift; sourceTree = "<group>"; };
 		DF733D5A26ED119C00B09530 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		DF891A6326F461390040A1AD /* PlaceSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSelectViewController.swift; sourceTree = "<group>"; };
 		DFD174192636E77A0037A2F1 /* LongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongButton.swift; sourceTree = "<group>"; };
 		DFD1741C263727900037A2F1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DFD7B82B263DA666003E43B2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				DF44F0C526E134DA00C726C5 /* ProfileViewController.swift */,
 				DF733D3426E65CE000B09530 /* DiaryViewController.swift */,
 				DF733D3626EA638A00B09530 /* EditDiaryViewController.swift */,
+				DF891A6326F461390040A1AD /* PlaceSelectViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				DF44F0FF26E1363F00C726C5 /* SceneDelegate.swift in Sources */,
 				DF46E953263E544900813EC4 /* ProfileSearchBar.swift in Sources */,
 				DF44F0CF26E134DA00C726C5 /* DiaryCollectionViewCell.swift in Sources */,
+				DF891A6426F461390040A1AD /* PlaceSelectViewController.swift in Sources */,
 				DF44F0F126E135EB00C726C5 /* IconTextField.swift in Sources */,
 				DFD1741D263727900037A2F1 /* SignUpViewController.swift in Sources */,
 				DF44F0F026E135EB00C726C5 /* DiaryCollectionHeader.swift in Sources */,

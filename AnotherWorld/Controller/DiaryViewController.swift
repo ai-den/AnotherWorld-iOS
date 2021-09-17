@@ -45,7 +45,7 @@ class DiaryViewController: UIViewController {
         imageSlider.scrollToItem(at: IndexPath(row: pageControl.currentPage, section: 0), at: .centeredHorizontally, animated: true)
     }
     @IBAction func editDiary(_ sender: Any) {
-        performSegue(withIdentifier: "toEditDiary", sender: self)
+        performSegue(withIdentifier: K.Segues.toEditDiary, sender: self)
     }
     
 }
